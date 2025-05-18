@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hatsune Miku - Página Principal</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+    .pagina-principal {
+      height: 100vh;
+      background-image: url('anime-hatsune-miku-vocaloid-anime-girls-wallpaper-preview.jpg'); /* troca aqui pelo nome da sua imagem */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+      padding: 20px;
+      box-sizing: border-box;
+    }
+    button {
+      padding: 12px 25px;
+      font-size: 1.1rem;
+      border: none;
+      border-radius: 8px;
+      background-color: rgba(255, 255, 255, 0.8);
+      color: #333;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+      margin-top: 20px;
+    }
+    button:hover {
+      background-color: rgba(255, 255, 255, 1);
+    }
+  </style>
+</head>
+<body>
+  <main class="pagina-principal">
+    <section class="conteudo-principal">
+      <h1>Hatsune Miku:</h1>
+      <p>A ícone da música virtual japonesa</p>
+      <button onclick="location.href='sobre.html'">Ir para a Próxima Página</button>
+    </section>
+  </main>
+</body>
+</html>
